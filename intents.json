@@ -1,5 +1,657 @@
 [
     {
+        "tag": "group_projects",
+        "patterns": [
+            "How do I manage group projects?",
+            "What are tips for working with a team?",
+            "How do I deal with uncooperative group members?"
+        ],
+        "responses": [
+            "For group projects, set clear roles, create a timeline, and communicate frequently with your team.",
+            "Effective teamwork involves respecting everyone's ideas, resolving conflicts diplomatically, and staying organized.",
+            "Address uncooperative members by discussing the issue respectfully and involving your professor if needed."
+        ]
+    },
+    {
+        "tag": "plagiarism",
+        "patterns": [
+            "What is plagiarism?",
+            "How do I avoid plagiarism?",
+            "What tools can I use to check plagiarism?"
+        ],
+        "responses": [
+            "Plagiarism is using someone else's work without giving credit. Always cite your sources to avoid it.",
+            "Avoid plagiarism by paraphrasing correctly, keeping track of sources, and using proper citation styles.",
+            "Tools like Turnitin, Grammarly, or Plagiarism Checker can help ensure originality in your work."
+        ]
+    },
+    {
+        "tag": "academic_writing",
+        "patterns": [
+            "How do I structure an essay?",
+            "What are tips for writing a thesis?",
+            "How do I improve my academic writing skills?"
+        ],
+        "responses": [
+            "Structure your essay with an introduction, body paragraphs, and a conclusion. Use clear topic sentences.",
+            "For a thesis, start with a strong research question, outline your argument, and provide supporting evidence.",
+            "Improve academic writing by practicing regularly, reading academic papers, and seeking feedback from professors."
+        ]
+    },
+    {
+        "tag": "coding_and_technology",
+        "patterns": [
+            "What are the best resources for learning to code?",
+            "How do I choose the right programming language?",
+            "What tools can help with software development projects?"
+        ],
+        "responses": [
+            "Great resources for coding include freeCodeCamp, Codecademy, and MIT OpenCourseWare.",
+            "Choose a programming language based on your goals: Python for beginners, JavaScript for web development, or C++ for systems programming.",
+            "Tools like GitHub for version control, Visual Studio Code for coding, and JIRA for project management are highly useful."
+        ]
+    },
+    {
+        "tag": "public_speaking",
+        "patterns": [
+            "How do I prepare for a class presentation?",
+            "What are tips for improving public speaking?",
+            "How do I overcome stage fright?"
+        ],
+        "responses": [
+            "Prepare for presentations by organizing your slides, practicing your speech, and anticipating questions.",
+            "Improve public speaking by practicing regularly, maintaining eye contact, and using gestures to emphasize points.",
+            "Overcome stage fright by deep breathing, visualizing success, and starting with smaller audiences."
+        ]
+    },
+    {
+        "tag": "networking",
+        "patterns": [
+            "How do I network effectively in college?",
+            "What are the best ways to connect with alumni?",
+            "How do I use LinkedIn for professional networking?"
+        ],
+        "responses": [
+            "Network in college by attending events, joining clubs, and actively engaging in class discussions.",
+            "Connect with alumni through your university's alumni network, LinkedIn, or alumni events.",
+            "On LinkedIn, create a professional profile, join relevant groups, and reach out with personalized messages."
+        ]
+    },
+    {
+        "tag": "thesis_and_dissertation",
+        "patterns": [
+            "How do I choose a thesis topic?",
+            "What are the steps to writing a dissertation?",
+            "How do I organize my research effectively?"
+        ],
+        "responses": [
+            "Choose a thesis topic that aligns with your interests and available resources. Discuss ideas with your advisor.",
+            "Writing a dissertation involves creating a proposal, conducting research, writing drafts, and revising based on feedback.",
+            "Organize research by using tools like Zotero or Mendeley for citations and keeping detailed notes in a systematic way."
+        ]
+    },
+    {
+        "tag": "lab_work",
+        "patterns": [
+            "How do I write a lab report?",
+            "What are tips for succeeding in lab courses?",
+            "How do I prepare for lab practicals?"
+        ],
+        "responses": [
+            "Structure your lab report with sections like abstract, introduction, methodology, results, and conclusion.",
+            "Succeed in lab courses by preparing ahead, following instructions carefully, and documenting observations in detail.",
+            "For lab practicals, review your notes, understand the procedures, and practice common techniques."
+        ]
+    },
+    {
+        "tag": "data_analysis",
+        "patterns": [
+            "What tools can I use for data analysis?",
+            "How do I analyze research data?",
+            "What are the basics of statistics for university students?"
+        ],
+        "responses": [
+            "Tools like Excel, R, Python, and SPSS are popular for data analysis. Choose based on your field of study.",
+            "To analyze research data, clean your dataset, identify key variables, and use visualizations for insights.",
+            "Basics of statistics include understanding mean, median, standard deviation, and creating visual data representations like graphs."
+        ]
+    },
+    {
+        "tag": "online_tools",
+        "patterns": [
+            "What are the best tools for organizing my studies?",
+            "How do I use Notion for academic purposes?",
+            "What apps can help with task management?"
+        ],
+        "responses": [
+            "Tools like Notion, Trello, and Google Calendar can help you organize notes, tasks, and deadlines.",
+            "In Notion, create pages for subjects, use templates for assignments, and track deadlines with the calendar feature.",
+            "Task management apps like Todoist, Asana, and Microsoft To-Do can keep you on top of your responsibilities."
+        ]
+    },
+    {
+        "tag": "foreign_languages",
+        "patterns": [
+            "How do I learn a new language effectively?",
+            "What are good apps for language learning?",
+            "How can I practice speaking a foreign language?"
+        ],
+        "responses": [
+            "Learn a new language by practicing daily, using flashcards, and immersing yourself in the language through media.",
+            "Great apps for language learning include Duolingo, Rosetta Stone, and Memrise.",
+            "Practice speaking by joining language exchange programs, talking with native speakers, or using apps like Tandem or HelloTalk."
+        ]
+    },
+    {
+        "tag": "advanced_research",
+        "patterns": [
+            "How do I publish a research paper?",
+            "What are good journals for student research?",
+            "How do I write an abstract for my paper?"
+        ],
+        "responses": [
+            "To publish a research paper, choose a relevant journal, format your paper according to their guidelines, and submit through their portal.",
+            "Good journals for students include IEEE, Elsevier, and PLOS One. Check with your department for recommendations.",
+            "Write an abstract by summarizing your objectives, methods, results, and conclusions in a concise manner."
+        ]
+    },
+    {
+        "tag": "internship_experience",
+        "patterns": [
+            "How do I prepare for a virtual internship?",
+            "What should I include in my internship journal?",
+            "How do I network during an internship?"
+        ],
+        "responses": [
+            "For a virtual internship, set up a quiet workspace, communicate regularly with your team, and follow a consistent schedule.",
+            "In your internship journal, document daily tasks, skills learned, and reflections on your experiences.",
+            "Network during an internship by attending meetings, connecting with colleagues on LinkedIn, and asking for feedback."
+        ]
+    },
+    {
+        "tag": "graduate_school",
+        "patterns": [
+            "How do I decide on a graduate program?",
+            "What are the requirements for grad school?",
+            "How do I write a statement of purpose?"
+        ],
+        "responses": [
+            "Decide on a graduate program by researching universities, faculty, and alignment with your career goals.",
+            "Grad school requirements often include a bachelor's degree, standardized test scores (e.g., GRE), and recommendation letters.",
+            "A statement of purpose should highlight your academic background, career aspirations, and why you’re a good fit for the program."
+        ]
+    },
+    {
+        "tag": "time_management",
+        "patterns": [
+            "How do I balance studies and extracurriculars?",
+            "What are effective time management techniques?",
+            "How can I avoid procrastination in college?"
+        ],
+        "responses": [
+            "Balance studies and activities by prioritizing tasks, scheduling your time, and keeping track of deadlines.",
+            "Time management techniques include using tools like calendars or apps, setting reminders, and focusing on high-priority tasks first.",
+            "Avoid procrastination by starting with small tasks, setting rewards for completing work, and eliminating distractions."
+        ]
+    },
+    {
+        "tag": "exam_tips",
+        "patterns": [
+            "How do I prepare for university exams?",
+            "What are effective revision techniques?",
+            "How can I reduce stress before exams?"
+        ],
+        "responses": [
+            "Prepare for exams by reviewing lecture notes, practicing past papers, and creating concise study guides.",
+            "Effective revision includes summarizing topics, using flashcards, and testing yourself on key concepts.",
+            "Reduce exam stress with deep breathing exercises, adequate sleep, and confidence in your preparation."
+        ]
+    },
+    {
+        "tag": "academic_resources",
+        "patterns": [
+            "Where can I find free academic resources?",
+            "What tools help with university assignments?",
+            "How do I get help with difficult subjects?"
+        ],
+        "responses": [
+            "You can access free resources on platforms like Coursera, JSTOR, and Khan Academy. Check your university library for more tools.",
+            "For assignments, tools like Grammarly for writing, Zotero for citations, and Evernote for organizing notes are helpful.",
+            "If you're struggling, reach out to professors, join study groups, or attend tutoring sessions offered by your university."
+        ]
+    },
+    {
+        "tag": "career_guidance",
+        "patterns": [
+            "How do I prepare for job interviews?",
+            "What are the best internships for students?",
+            "How can I choose the right career path?"
+        ],
+        "responses": [
+            "Prepare for job interviews by researching the company, practicing common questions, and dressing professionally.",
+            "The best internships depend on your field. Check company websites, LinkedIn, and your university career center for opportunities.",
+            "Choose a career path by identifying your interests, strengths, and goals. Career assessments or talking to advisors can help."
+        ]
+    },
+    {
+        "tag": "scholarships_and_funding",
+        "patterns": [
+            "How do I apply for scholarships?",
+            "What are good resources for financial aid?",
+            "How do I manage my budget as a student?"
+        ],
+        "responses": [
+            "To apply for scholarships, prepare strong essays and gather recommendation letters. Search platforms like Fastweb or Scholarship.com.",
+            "Financial aid resources include FAFSA (in the US), government grants, and your university's financial aid office.",
+            "Manage your budget by tracking expenses, cooking at home, and finding student discounts for essentials."
+        ]
+    },
+    {
+        "tag": "mental_health",
+        "patterns": [
+            "How do I deal with academic pressure?",
+            "What are tips for managing stress in university?",
+            "How can I improve my mental well-being?"
+        ],
+        "responses": [
+            "Manage academic pressure by setting realistic goals, seeking support from friends or counselors, and taking breaks when needed.",
+            "Stress management tips include regular exercise, mindfulness meditation, and talking to someone you trust.",
+            "For mental well-being, maintain a balanced lifestyle, prioritize sleep, and explore campus mental health services."
+        ]
+    },
+    {
+        "tag": "social_life",
+        "patterns": [
+            "How do I make friends in university?",
+            "What are good activities for meeting people?",
+            "How do I balance my social life with academics?"
+        ],
+        "responses": [
+            "Making friends involves joining clubs, attending campus events, and participating in group activities.",
+            "Good activities include sports, study groups, volunteering, or attending social gatherings on campus.",
+            "Balance social life with academics by setting boundaries, prioritizing tasks, and dedicating time to both."
+        ]
+    },
+    {
+        "tag": "study_abroad",
+        "patterns": [
+            "How do I prepare for studying abroad?",
+            "What are the best programs for international students?",
+            "How do I adjust to living in a new country?"
+        ],
+        "responses": [
+            "Prepare for studying abroad by researching the university, securing visas, and learning about the local culture.",
+            "Top study-abroad programs include Erasmus, Fulbright, and exchange opportunities through your university.",
+            "Adjust by joining international student groups, learning basic language skills, and staying open to new experiences."
+        ]
+    },
+    {
+        "tag": "research_papers",
+        "patterns": [
+            "How do I write a research paper?",
+            "What are good tools for academic writing?",
+            "How do I find credible sources for my paper?"
+        ],
+        "responses": [
+            "To write a research paper, choose a topic, gather sources, create an outline, and follow proper formatting guidelines.",
+            "Tools like Grammarly, Google Scholar, and citation managers like Zotero or EndNote can make writing easier.",
+            "Find credible sources through academic databases like JSTOR, PubMed, or your university library."
+        ]
+    },
+    {
+        "tag": "internships",
+        "patterns": [
+            "How do I find internships?",
+            "What are tips for applying to internships?",
+            "How do I make the most of my internship experience?"
+        ],
+        "responses": [
+            "Find internships on platforms like LinkedIn, Handshake, or your university’s career portal.",
+            "For applications, tailor your resume and cover letter to the position, and practice for interviews.",
+            "Maximize your internship experience by networking, seeking feedback, and contributing actively to projects."
+        ]
+    },
+    {
+        "tag": "exam_tips",
+        "patterns": [
+            "How do I prepare for exams?",
+            "What are tips for studying for finals?",
+            "How can I avoid stress before exams?"
+        ],
+        "responses": [
+            "Prepare for exams by creating a study schedule, focusing on weak subjects, and practicing past papers.",
+            "To study for finals, break topics into chunks, revise daily, and avoid last-minute cramming.",
+            "Reduce stress with deep breathing, regular breaks, and enough sleep the night before."
+        ]
+    },
+    {
+        "tag": "subject_guidance",
+        "patterns": [
+            "How do I improve in math?",
+            "Tips for understanding chemistry?",
+            "What are ways to study English literature?"
+        ],
+        "responses": [
+            "To improve in math, practice problems regularly and focus on understanding concepts.",
+            "For chemistry, learn key formulas, practice reactions, and use visual aids like diagrams.",
+            "To study English literature, analyze themes, characters, and the author's purpose in the text."
+        ]
+    },
+    {
+        "tag": "time_management",
+        "patterns": [
+            "How do I manage my time effectively?",
+            "What are tips for balancing school and activities?",
+            "How do I avoid procrastination?"
+        ],
+        "responses": [
+            "Time management involves using a planner, setting goals, and prioritizing tasks effectively.",
+            "Balance school and activities by creating a schedule, avoiding overcommitment, and dedicating time to relaxation.",
+            "Avoid procrastination by breaking tasks into smaller steps and setting deadlines for each step."
+        ]
+    },
+    {
+        "tag": "college_prep",
+        "patterns": [
+            "How do I prepare for college?",
+            "What should I include in my college application?",
+            "How do I choose the right college?"
+        ],
+        "responses": [
+            "Prepare for college by researching courses, building a strong academic record, and participating in extracurricular activities.",
+            "In your college application, highlight your achievements, personal essays, and recommendation letters.",
+            "Choose a college based on your interests, budget, location, and the programs they offer."
+        ]
+    },
+    {
+        "tag": "career_exploration",
+        "patterns": [
+            "What are good careers for high school students?",
+            "How do I decide on a career?",
+            "What subjects are important for a future career?"
+        ],
+        "responses": [
+            "Explore careers in technology, healthcare, arts, or trades based on your interests and skills.",
+            "Decide on a career by identifying your passions, researching opportunities, and talking to mentors.",
+            "For STEM careers, focus on math and science. For arts, hone creativity and communication skills."
+        ]
+    },
+    {
+        "tag": "stress_management",
+        "patterns": [
+            "How do I deal with school stress?",
+            "What are ways to relax after a busy day?",
+            "How can I avoid burnout?"
+        ],
+        "responses": [
+            "Manage school stress by staying organized, taking breaks, and talking to a trusted friend or counselor.",
+            "Relax by engaging in hobbies, listening to music, or spending time outdoors.",
+            "To avoid burnout, balance studies with rest, and practice self-care regularly."
+        ]
+    },
+    {
+        "tag": "extracurricular_activities",
+        "patterns": [
+            "What extracurriculars should I join?",
+            "How do activities help with college applications?",
+            "What are some unique extracurricular ideas?"
+        ],
+        "responses": [
+            "Join clubs, sports, or volunteer programs based on your interests. These can develop valuable skills.",
+            "Extracurriculars demonstrate leadership and dedication, which can boost your college application.",
+            "Unique ideas include starting a blog, participating in science fairs, or organizing school events."
+        ]
+    },
+    {
+        "tag": "study_tips",
+        "patterns": [
+            "How do I focus while studying?",
+            "What are the best study methods for high school?",
+            "How do I study faster?"
+        ],
+        "responses": [
+            "Focus by eliminating distractions, setting clear goals, and taking short breaks to stay refreshed.",
+            "The best study methods include active recall, summarizing notes, and teaching the material to someone else.",
+            "Study faster by prioritizing key concepts, using flashcards, and practicing past questions."
+        ]
+    },
+    {
+        "tag": "scholarships",
+        "patterns": [
+            "How do I apply for scholarships?",
+            "What are good scholarships for high school students?",
+            "Can you suggest tips for winning scholarships?"
+        ],
+        "responses": [
+            "Apply for scholarships by checking school websites, community organizations, and online portals like Fastweb.",
+            "Great scholarships for high schoolers include National Merit, STEM awards, and local community scholarships.",
+            "To win scholarships, focus on writing a compelling essay, meeting all requirements, and applying early."
+        ]
+    },
+    {
+        "tag": "test_taking_tips",
+        "patterns": [
+            "How do I ace multiple-choice tests?",
+            "What are strategies for essay-based exams?",
+            "How do I manage time during tests?"
+        ],
+        "responses": [
+            "For multiple-choice tests, read all options carefully and eliminate incorrect answers to improve accuracy.",
+            "In essay-based exams, structure your response with an introduction, body, and conclusion. Stick to the question.",
+            "Manage time by reviewing the entire test first, allotting time for each section, and avoiding getting stuck on one question."
+        ]
+    },
+    {
+        "tag": "positive_mindset",
+        "patterns": [
+            "How do I stay positive about school?",
+            "What are motivational quotes for students?",
+            "How can I build confidence in learning?"
+        ],
+        "responses": [
+            "Stay positive by setting achievable goals, focusing on progress, and celebrating small wins.",
+            "Here’s a quote for you: 'Education is the passport to the future, for tomorrow belongs to those who prepare for it today.' - Malcolm X",
+            "Build confidence by practicing regularly, asking questions, and remembering that every mistake is a learning opportunity."
+        ]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": [
+            "Goodbye",
+            "See you later",
+            "Bye",
+            "Take care"
+        ],
+        "responses": [
+            "Goodbye! Keep striving for your best.",
+            "See you soon! Let me know if you need more help.",
+            "Take care, and best of luck with your studies!"
+        ]
+    },
+    {
+        "tag": "greeting",
+        "patterns": [
+            "Hi",
+            "Hello",
+            "Hey",
+            "Good day"
+        ],
+        "responses": [
+            "Hello! How can I assist you with your learning journey today?",
+            "Hi there! Are you looking for study tips, resources, or career advice?"
+        ]
+    },
+    {
+        "tag": "study_tips",
+        "patterns": [
+            "How do I study effectively?",
+            "What are the best study techniques?",
+            "How can I improve my concentration while studying?"
+        ],
+        "responses": [
+            "Effective study techniques include active recall, spaced repetition, and taking regular breaks.",
+            "To improve concentration, create a distraction-free environment, use the Pomodoro technique, and stay hydrated.",
+            "Let me know if you’d like detailed tips or resources for your specific subject."
+        ]
+    },
+    {
+        "tag": "online_learning",
+        "patterns": [
+            "What are the best online learning platforms?",
+            "How do I stay motivated while learning online?",
+            "Are online courses effective?"
+        ],
+        "responses": [
+            "Great online platforms include Coursera, edX, Udemy, and Khan Academy. Do you have a specific subject in mind?",
+            "To stay motivated, set clear goals, follow a schedule, and take breaks to avoid burnout.",
+            "Online courses can be very effective with consistent effort and interaction. Would you like suggestions for your field?"
+        ]
+    },
+    {
+        "tag": "exam_preparation",
+        "patterns": [
+            "How do I prepare for exams?",
+            "What are tips for managing exam stress?",
+            "How can I revise effectively?"
+        ],
+        "responses": [
+            "For exams, create a study schedule, prioritize difficult topics, and practice past papers.",
+            "Manage exam stress with deep breathing, sufficient sleep, and regular physical activity.",
+            "Effective revision includes summarizing key points, using flashcards, and teaching others."
+        ]
+    },
+    {
+        "tag": "career_guidance",
+        "patterns": [
+            "How do I choose a career?",
+            "What are the best careers in technology?",
+            "Can you suggest career options after graduation?"
+        ],
+        "responses": [
+            "Choosing a career involves identifying your interests, skills, and long-term goals. Would you like help assessing your options?",
+            "In technology, careers like data scientist, software engineer, and cybersecurity specialist are in demand.",
+            "After graduation, explore internships, advanced studies, or entry-level positions in your field of interest."
+        ]
+    },
+    {
+        "tag": "subject_help",
+        "patterns": [
+            "Can you help with math?",
+            "I need tips for learning history.",
+            "How do I improve in science?"
+        ],
+        "responses": [
+            "Sure! For math, practice problem-solving and understand the concepts. Would you like some resources?",
+            "For history, focus on timelines, key events, and understanding the context. I can suggest techniques or books.",
+            "Science becomes easier with hands-on experiments and visual aids. Let me know your specific topic."
+        ]
+    },
+    {
+        "tag": "learning_styles",
+        "patterns": [
+            "What are different learning styles?",
+            "How do I find my learning style?",
+            "Can you explain visual and auditory learning?"
+        ],
+        "responses": [
+            "Learning styles include visual, auditory, kinesthetic, and reading/writing. Do you know which one suits you best?",
+            "Finding your learning style involves experimenting with methods like watching videos, taking notes, or using hands-on activities.",
+            "Visual learners prefer diagrams and charts, while auditory learners retain information better through listening."
+        ]
+    },
+    {
+        "tag": "time_management",
+        "patterns": [
+            "How do I manage my time effectively?",
+            "What are tips for balancing studies and personal life?",
+            "How can I avoid procrastination?"
+        ],
+        "responses": [
+            "Effective time management includes creating to-do lists, using a planner, and setting priorities.",
+            "Balance studies and life by scheduling downtime, staying organized, and setting realistic goals.",
+            "Avoid procrastination by breaking tasks into smaller steps, eliminating distractions, and rewarding yourself for completing tasks."
+        ]
+    },
+    {
+        "tag": "motivation",
+        "patterns": [
+            "How do I stay motivated to study?",
+            "What are motivational quotes for students?",
+            "I feel unmotivated. What should I do?"
+        ],
+        "responses": [
+            "Stay motivated by setting clear goals, visualizing success, and celebrating small achievements.",
+            "Here’s a quote for you: 'Success is no accident. It is hard work, perseverance, and learning.' - Pele",
+            "If you're feeling unmotivated, take a short break, remind yourself of your goals, and start with a small task."
+        ]
+    },
+    {
+        "tag": "educational_resources",
+        "patterns": [
+            "Where can I find free courses?",
+            "What are the best resources for coding?",
+            "Can you suggest resources for learning English?"
+        ],
+        "responses": [
+            "Free courses are available on platforms like Coursera, Khan Academy, and Alison. Let me know your subject of interest.",
+            "For coding, check out Codecademy, freeCodeCamp, or W3Schools for tutorials and practice.",
+            "For learning English, explore Duolingo, BBC Learning English, and Cambridge resources. Would you like specific links?"
+        ]
+    },
+    {
+        "tag": "soft_skills",
+        "patterns": [
+            "What are important soft skills for students?",
+            "How do I improve communication skills?",
+            "Why are leadership skills important?"
+        ],
+        "responses": [
+            "Important soft skills include communication, teamwork, time management, and adaptability.",
+            "Improve communication by practicing active listening, participating in discussions, and reading widely.",
+            "Leadership skills help in group settings, decision-making, and achieving shared goals. Would you like advice on developing them?"
+        ]
+    },
+    {
+        "tag": "scholarships",
+        "patterns": [
+            "How do I find scholarships?",
+            "What are tips for winning scholarships?",
+            "Can you suggest resources for financial aid?"
+        ],
+        "responses": [
+            "Find scholarships on platforms like Fastweb, Scholarship.com, and through your school or university.",
+            "To win scholarships, tailor your application, highlight achievements, and apply early.",
+            "For financial aid, check government websites, institutional programs, and local organizations."
+        ]
+    },
+    {
+        "tag": "extracurricular_activities",
+        "patterns": [
+            "What extracurricular activities should I join?",
+            "Why are extracurriculars important?",
+            "How do I balance extracurriculars with studies?"
+        ],
+        "responses": [
+            "Extracurricular activities like clubs, sports, or volunteering help develop skills and enhance your resume.",
+            "They are important for building teamwork, leadership, and time management skills.",
+            "Balance extracurriculars with studies by prioritizing tasks, avoiding overcommitment, and scheduling wisely."
+        ]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": [
+            "Goodbye",
+            "See you later",
+            "Bye",
+            "Take care"
+        ],
+        "responses": [
+            "Goodbye! Best of luck with your studies!",
+            "See you soon! Keep learning and growing.",
+            "Take care and let me know if you need help again."
+        ]
+    },
+    {
         "tag": "greeting",
         "patterns": [
             "Hi",
